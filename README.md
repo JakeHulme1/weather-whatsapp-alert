@@ -23,10 +23,12 @@ Follow these steps to set up the project on your local machine:
    git clone https://github.com/JakeHulme1/weather-whatsapp-alert.git
    cd weather-whatsapp-alert
 2. **Create a virtual environment by running the following in the terminal in project folder:**
-  python -m venv .venv
-  source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 3. **Install the required packages by running the following:**
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 4. **Set up environment variables.**
   - Add Twilio and OpenWeatherMap credintials into the .env folder (you will needto create an account on Twilio and OpenWeatherMap for the API keys)
   - Add the Twilio Sandbox nmber and the user's whatsapp number into the .env file
@@ -34,9 +36,10 @@ Follow these steps to set up the project on your local machine:
 ## Usage
 
 1. Run the script:
-  python main.py
+   ```bash
+   python main.py
 
-2. What it does:
+3. What it does:
   - Fetches the current weather data for a specified location (location specified in main.py) from the OpenWeatherMap API.
   - Sends a WhatsApp message with the weather update to the specified number using the Twilio API.
 
