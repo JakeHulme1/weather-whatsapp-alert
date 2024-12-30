@@ -22,7 +22,7 @@ Follow these steps to set up the project on your local machine:
    ```bash
    git clone https://github.com/JakeHulme1/weather-whatsapp-alert.git
    cd weather-whatsapp-alert
-2. **Create a virtual environment byrunning the following in the terminal in project folder:**
+2. **Create a virtual environment by running the following in the terminal in project folder:**
   python -m venv .venv
   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 3. **Install the required packages by running the following:**
