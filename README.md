@@ -47,11 +47,11 @@ Follow these steps to set up the project on your local machine:
 - requirements.txt: Lists all the dependencies required for the project.
 - .gitignore: Specifies files and directories to be ignored by Git, including .env and .venv.
 
-  ## Automation
+## Automation
 
-  To automate the script to run daily at a certain time, you can use a task scheduler like Task Scheduler on Windows.
+To automate the script to run daily at a certain time, you can use a task scheduler like Task Scheduler on Windows.
 
-  Using Task Scheduler (Windows):
-  1. Open Task Scheduler and create a new task.
-  2. Set the trigger to daily at your desired time.
-  3. Set the action to start a program and point it to the Python executable in your virtual environment and the weather.py script.
+Using Task Scheduler (Windows):
+1. Open Task Scheduler and create a new task.
+2. Set the trigger to daily at your desired time.
+3. Set the action to start a program and point it to the Python executable in your virtual environment and the weather.py script.
